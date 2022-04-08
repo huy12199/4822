@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>User</h3><input id="User" type="text">
+<h3>Pass</h3><input id="Pass" type="password">
+<h3>Email</h3><input id="Email" type="text">
+<h3>Phone</h3><input id="Phone" type="text">
+<button onclick="showinfo()">submit</button>
+<script>
+    function showinfo() {
+        let a=document.getElementById("User").value
+        let b=document.getElementById("Pass").value
+        let c=document.getElementById("Email").value
+        let d=document.getElementById("Phone").value
+        console.log("User là:"+a)
+        console.log("Pass là:"+b)
+        console.log("Email là"+c)
+        console.log("Phone là:"+d)
+    }
+</script>
+</body>
+</html>

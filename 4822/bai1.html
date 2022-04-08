@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Nhập số 1<input id="h1" type="text">
+
+* Hệ số
+<select id="h2">
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+</select>
+=
+kết quả : <input id="h3" type="text" size="5px">
+<br>
+<br>
+<br>
+<button onclick="xin_chao()">showsun</button>
+</body>
+</html>
+
+<script>
+    function xin_chao() {
+        let a = document.getElementById('h1').value
+        let b = document.getElementById('h2').value
+        document.getElementById('h3').value = a*b
+    }
+</script>
