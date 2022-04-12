@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+
+nhập vào một số : <input id="So_a" type="text">
+<button onclick="kt()" >kiểm tra</button>
+
+</div>
+
+</body>
+</html>
+
+<script>
+    function kt(){
+        let A = document.getElementById("So_a").value
+        if (A%5==0 & A%3==0){
+            alert("code gym")
+        }
+        else {
+            if (A%5==0){
+                alert("gym")
+            }
+            if (A%3==0){
+                alert("code")
+            }
+        }
+    }
+</script>
